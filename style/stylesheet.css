@@ -1,0 +1,92 @@
+*{
+  padding: 5px;
+  margin: 10px;
+}
+header, footer{
+  background-color: lightgreen;
+  margin-top, margin-bottom: 30px
+}
+header li{
+  display: inline-block;
+  border-style: outset;
+  border-color: purple;
+  border-width: 15px;
+  background-color: purple;
+}
+header a:link{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+header a:hover{
+  background-color: lightblue;
+  font-weight: bold;
+  color: purple;
+}
+header a:visited{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+body{
+  background-color: violet;
+  align-items: center;
+}
+div{
+  background-color: white;
+  padding: 8px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2{
+  font-size: 30px;
+  color: purple;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  font-size: 30px;
+  color: purple;
+}
+td.b{
+  font-weight: bold;
+}
+tr.opleiding{
+  background-color: lightgrey;
+}
+footer ul{
+  max-width: 1000px;
+  list-style-image: url(../img/copyright_trans_klein.png);
+  margin-left: 20px;
+  margin-right: auto;
+  font-size: 18px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="submit"], textarea, select, button{
+  display: block;
+  margin: 15px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+textarea{
+  height: 100px;
+  padding: 5px 4px;
+}
+button:active{
+  background-color: purple;
+  color: White;
+  border-radius: 4px;
+}
